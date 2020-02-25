@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="web, internet"> <!--Palabras clave-->
+
+
+	<link rel="icon" type="image/png" href="favicon2.jpg">
+	<script src="dinamico.js"></script>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<link rel="stylesheet" href="miEstilo.css">
+	<title>C&A</title>
+</head>
+
+<body id="miBody">
+
+	<div class="contenedor">
+
+		<header class="encabezado">
+			<div class="text-dark">
+				<label id="titulo" class="loNuevo-dark">Tarjeta C&A BradesCard | Consulta tu saldo</label>
+			</div>
+			
+		
+			<div class="portaCarrusel" >
+			
+				<img src="carrusel.png" class="tamaño-80" alt="carrusel" />
+				
+			</div>
+	
+				
+		
+
+		</header>
+
+		<nav class="navegacion bg-flat navbar" id="miNavBar">
+			<div class="container">
+			
+			
+			  <ul class="nav">
+			  
+			    <li class="nav-item p-d-0">
+				  <img src="logo-C&A.svg" alt="Logo" />
+			    </li>
+
+				<li class="nav-item">
+				  <a id="boton" class="nav-link miBoton" href="#" onclick="normal()">NORMAL</a>
+				</li>
+				
+				
+				 <li class="nav-item">
+				  <a id="boton" class="nav-link miBoton" href="#" onclick="dark()">DARK</a>
+				</li>			  
+				
+				<li class="nav-item">
+				  <a id="boton" class="nav-link miBoton" href="#">Niñas</a>
+				</li>
+				
+				<li class="nav-item">
+				  <a id="boton" class="nav-link miBoton" href="#">Niños</a>
+				</li>
+
+				<li class="nav-item">
+				  <a class="nav-link miBoton" href="#">C&A Plus</a>
+				</li>
+				
+				<li class="nav-item">
+				  <a id="boton" class="nav-link miBoton" href="#">Editoriales</a>
+				</li>
+
+				<li class="nav-item">
+
+					<img src="lupa.png" width="18" alt="lupa">
+				 	<input class="buscar" type="text" name="ingresa" placeholder="Ingresa Aqui">
+
+				</li>
+
+				<li>
+				 	<img src="iconos.png" width="160" alt="redes">
+				</li>
+				
+			  </ul>
+			  
+			</div>
+		</nav>
+
+		<section class="seccion">
+
+
+			
+			   <div class="contenedorTarjeta">
+					<h3 id="consulta"  class="loNuevo-dark">Consulta tu saldo</h3>
+					<p  id="parrafo1" class="loNuevo-dark-p">Desde aquí puedes consultar toda la información de tu tarjeta C&A BradesCard.</p>
+
+					<div class="m-t-2">
+						<label id="numeroT" class="text-tarjeta">Número de Tarjeta</label><br>
+						<input class="input-ca" type="text" name="noTarjeta" 
+						placeholder="**** **** **** 0000">
+					</div>
+
+
+					<div class="m-t-2">
+						<label id="fecha" class="text-tarjeta">Fecha de Nacimiento</label><br>
+						<input class="input-ca" type="date" name="fecha"/>
+					</div>
+
+					<div class="m-t-2">
+						<img src="robot.png" class="tamaño-80" alt="noSoy Robot">
+					</div>
+
+					<div class="m-t-2">
+						<a class="consultar" href="#">Consultar</a>
+					</div>
+					
+				</div>
+
+		</section>
+
+
+
+		<aside class="aside">
+				
+					<h3 id="yaTienes" class="loNuevo-dark">Y tú...<br>¿Ya tienes tu tarjeta C&A BradesCard?</h3>
+					
+					<div class="miContainer">
+
+
+						
+						<div class="cajaTarjeta">
+
+							<div class="min-hei">
+								<img src="azul.png" class="tamaño-120" alt="azul">
+
+								<p id="t1" class="title-card">C&A BRADESCARD</p>
+
+								<p id="p1" class="text-card">¡Tu primera tarjeta en C&A! Con ella podrás tener acceso a distintas opciones de pago, promociones exclusivas y muchas sorpresas. El primer paso hacia el outfit perfecto.</p>
+							</div>
+
+							<a class="sinDecoracion" href="#">
+								<div class="verMas">
+									Ver más
+								</div>
+							</a>
+							
+						</div>
+
+
+
+
+						<div class="cajaTarjeta">
+
+							<div class="min-hei">
+								<img src="negra.png" class="tamaño-120" alt="negra">
+
+								<p id="t2"  class="title-card">C&A TREND BRADESCARD</p>
+
+								<p id="p2" class="text-card">Más beneficios se suman para una mejor experiencia: promociones exclusivas, meses sin intereses y la oportunidad de ganar viajes y sorpresas adicionales. C&A Trend Bradescard lleva las tendencias del momento a tu guardarropa..</p>
+							</div>
+
+
+							<a class="sinDecoracion" href="#">
+								<div class="verMas">
+									Ver más
+								</div>
+							</a>
+							
+						</div>
+
+						<div class="cajaTarjeta">
+
+							<div class="min-hei">
+								<img src="gris.png" class="tamaño-120" alt="gris">
+
+								<p id="t3" class="title-card">C&A BRADESCARD INTERNACIONAL</p>
+
+								<p id="p3" class="text-card">Que tu tarjeta C&A Bradescard Internacional sea tu mejor compañera, utilízala en cualquier comercio o establecimiento de México y del mundo, además disfruta de nuestras promociones exclusivas todo el año en cualquier tienda C&A.</p>
+							</div>
+
+							<a class="sinDecoracion" href="#">
+								<div class="verMas">
+									Ver más
+								</div>
+							</a>
+							
+							
+						</div>
+
+						<div class="cajaTarjeta">
+
+							<div class="min-hei">
+								<img src="verde.png" class="tamaño-120" alt="verde">
+
+								<p id="t4" class="title-card">C&A PRÉSTAMO PERSONAL</p>
+
+								<p id="p4" class="text-card">Un beneficio confiable a tu alcance y cuando más lo necesitas para solucionar esos imprevistos.</p>
+							</div>
+
+							<a class="sinDecoracion" href="#">
+								<div class="verMas">
+									Ver más
+								</div>
+							</a>
+							
+						</div>
+
+
+
+
+					</div>
+
+		</aside>
+
+		
+				
+					
+				
+		 
+
+		<footer class="pie miFooter">
+			<div class="derechos">
+				C&A México 2019 ® todos los derechos reservados.
+			</div>
+
+
+		</footer>
+	</div>
+
+</body>
+</html>

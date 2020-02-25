@@ -1,0 +1,36 @@
+	*{
+		margin:0;
+		padding: 0;
+	}
+
+	.contenedor{
+		width: 100%;
+		display: grid;
+		grid-gap: 20px; /*Espacio entre elementos*/
+		grid-template-columns: repeat(2,1fr);
+		grid-template-rows: repeat(4, auto);
+		align-items: stretch;
+	}
+
+	.contenedor div, nav, header, footer, section, aside{
+		padding: 10px;
+		border-radius: 4px;
+	}
+
+	.encabezado{
+		grid-column: 1/3;
+		grid-row: 2;
+	}
+	.navegacion{
+		grid-column: 1/3;
+		grid-row: 1;
+	}
+
+
+	.pie{
+		grid-column: 1/3;
+		grid-row:4;
+	}
+
+	
+
